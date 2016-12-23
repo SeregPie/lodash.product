@@ -1,14 +1,14 @@
-# lodash.permutations.js
+# lodash.cross.js
 
-`_.permutations(...arrays)`
+`_.cross(...arrays)`
 
-Calculates all possible permutations.
+Calculates Cartesian product.
 
 | argument | description |
 | ---: | :--- |
 | `arrays` | ???. |
 
-Returns a new array of permutations.
+Returns a new array.
 
 ## dependencies
 
@@ -17,12 +17,12 @@ Returns a new array of permutations.
 ## usage
 
 ```javascript
-let permutations = _.permutations([false, true], ['a', 'b', 'c'], [{}]);
+let result = _.cross([false, true], ['a', 'b', 'c'], [{}]);
 // => [[false, 'a', {}], [false, 'b', {}], [false, 'c', {}], [true, 'a', {}], [true, 'b', {}], [true, 'c', {}]]
 ```
 
 ```javascript
 let array = [1, 2, 3];
-let permutations = _.permutations(array, array);
+let result = _.cross(array, array);
 // => [[1, 1], [1, 2], [1, 3], [2, 1], [2, 2], [2, 3], [3, 1], [3, 2], [3, 3]]
 ```

@@ -1,12 +1,12 @@
 # lodash.product
 
-`_.product(...arrays)`
+`_.product(...collections)`
 
-Calculates Cartesian product.
+Calculates the Cartesian product between multiple collections.
 
 | argument | description |
 | ---: | :--- |
-| `arrays` | ???. |
+| `collections` | Iterables of values to calculate the Cartesian product between. |
 
 Returns a new array.
 

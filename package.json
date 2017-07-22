@@ -1,6 +1,6 @@
 {
   "name": "lodash.product",
-  "version": "17.7.22",
+  "version": "17.7.23",
   "description": "Calculates the Cartesian product between multiple collections.",
   "main": "lodash.product.js",
   "repository": {

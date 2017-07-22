@@ -1,0 +1,19 @@
+{
+  "name": "lodash.product",
+  "version": "17.7.22",
+  "description": "Calculates the Cartesian product between multiple collections.",
+  "main": "lodash.product.js",
+  "repository": {
+	"type": "git",
+	"url": "git+https://github.com/SeregPie/lodash.cloneJSON.git"
+  },
+  "author": "Sergej Sintschilin",
+  "license": "MIT",
+  "bugs": {
+	"url": "https://github.com/SeregPie/lodash.cloneJSON/issues"
+  },
+  "homepage": "https://github.com/SeregPie/lodash.cloneJSON#readme",
+  "dependencies": {
+	"lodash": "latest"
+  }
+}

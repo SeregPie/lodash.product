@@ -16,7 +16,7 @@
 	}});
 
 })((function() {
-	if (typeof exports !== 'undefined' && this === exports) {
+	if (typeof module !== 'undefined' && typeof exports !== 'undefined' && this === exports) {
 		return require('lodash');
 	} else {
 		return _;

@@ -16,7 +16,7 @@ Returns a new array.
 
 ## setup
 
-Install the [package](https://www.npmjs.com/package/lodash.product) via npm.
+### npm
 
 ```sh
 
@@ -24,16 +24,25 @@ npm install lodash.product
 
 ```
 
-Import the module into your Node.js project.
+### ES module
 
-```javascript
-const _ = require('lodash');
-require('lodash.product');
+```js
+
+import _ from 'lodash';
+import 'lodash.product';
+
 ```
 
----
+### Node
 
-Include the code in your page via a CDN.
+```js
+
+const _ = require('lodash');
+require('lodash.product');
+
+```
+
+### browser
 
 ```html
 
@@ -44,13 +53,17 @@ Include the code in your page via a CDN.
 
 ## usage
 
-```javascript
+```js
+
 let product = _.product([false, true], ['a', 'b', 'c'], [{}]);
 // => [[false, 'a', {}], [false, 'b', {}], [false, 'c', {}], [true, 'a', {}], [true, 'b', {}], [true, 'c', {}]]
+
 ```
 
-```javascript
+```js
+
 let array = [1, 2, 3];
 let product = _.product(array, array);
 // => [[1, 1], [1, 2], [1, 3], [2, 1], [2, 2], [2, 3], [3, 1], [3, 2], [3, 3]]
+
 ```

@@ -1,19 +1,38 @@
 {
-  "name": "lodash.product",
-  "version": "17.8.19",
-  "description": "Calculates the Cartesian product between multiple collections.",
-  "main": "lodash.product.js",
-  "repository": {
-	"type": "git",
-	"url": "git+https://github.com/SeregPie/lodash.product.git"
-  },
-  "author": "Sergej Sintschilin",
-  "license": "MIT",
-  "bugs": {
-	"url": "https://github.com/SeregPie/lodash.product/issues"
-  },
-  "homepage": "https://github.com/SeregPie/lodash.product#readme",
-  "dependencies": {
-	"lodash": "latest"
-  }
+	"name": "lodash.product",
+	"version": "17.12.17",
+	"description": "Calculates the Cartesian product between multiple collections.",
+	"main": "lodash.product.js",
+	"scripts": {
+		"build": "rollup -c",
+		"prepublishOnly": "npm run build"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/SeregPie/lodash.product.git"
+	},
+	"keywords": [
+		"array",
+		"cartesian",
+		"collection",
+		"combinatorics",
+		"lodash",
+		"mixin",
+		"product"
+	],
+	"author": "Sergej Sintschilin",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/SeregPie/lodash.product/issues"
+	},
+	"homepage": "https://github.com/SeregPie/lodash.product#readme",
+	"dependencies": {
+		"lodash": "^4.17.4"
+	},
+	"devDependencies": {
+		"eslint": "^4.13.1",
+		"rollup": "^0.52.2",
+		"rollup-plugin-buble": "^0.18.0",
+		"rollup-plugin-uglify": "^2.0.1"
+	}
 }

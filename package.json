@@ -1,6 +1,6 @@
 {
 	"name": "lodash.product",
-	"version": "17.12.17",
+	"version": "18.1.16",
 	"description": "Calculates the Cartesian product between multiple collections.",
 	"main": "lodash.product.js",
 	"scripts": {
@@ -30,8 +30,8 @@
 		"lodash": "^4.17.4"
 	},
 	"devDependencies": {
-		"eslint": "^4.13.1",
-		"rollup": "^0.52.2",
+		"eslint": "^4.15.0",
+		"rollup": "^0.54.0",
 		"rollup-plugin-buble": "^0.18.0",
 		"rollup-plugin-uglify": "^2.0.1"
 	}

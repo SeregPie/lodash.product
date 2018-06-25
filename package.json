@@ -5,6 +5,7 @@
 	"main": "lodash.product.js",
 	"scripts": {
 		"build": "rollup -c",
+		"test": "node test",
 		"prepublishOnly": "npm run build"
 	},
 	"repository": "https://github.com/SeregPie/lodash.product.git",

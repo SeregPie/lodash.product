@@ -6,7 +6,7 @@ Calculates the Cartesian product between multiple collections.
 
 | argument | description |
 | ---: | :--- |
-| `collections` | Iterables of values to calculate the Cartesian product from. |
+| `collections` | Collections to calculate the Cartesian product from. |
 
 Returns a new array.
 

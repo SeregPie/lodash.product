@@ -1,19 +1,23 @@
 import buble from 'rollup-plugin-buble';
-import uglify from 'rollup-plugin-uglify';
+import resolve from '@seregpie/rollup-plugin-resolve';
+import {uglify} from 'rollup-plugin-uglify';
+
+import {main} from './package.json';
 
 let globals = {
 	'lodash': '_',
 };
 
 export default {
-	input: 'src/lodash.product.js',
+	input: 'src/index.js',
 	external: Object.keys(globals),
 	output: {
-		file: 'lodash.product.js',
+		file: main,
 		format: 'umd',
 		globals,
 	},
 	plugins: [
+		resolve(),
 		buble(),
 		uglify(),
 	],

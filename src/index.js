@@ -1,6 +1,6 @@
 import _ from 'lodash';
 
-import Function_withSelf from './helpers/Function/withSelf';
+import Function_withSelf from '/utils/Function/withSelf';
 
 _.mixin({
 	product(...collections) {

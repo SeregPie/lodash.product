@@ -1,19 +1,19 @@
 import _ from 'lodash';
 
-import Function_withSelf from '/utils/Function/withSelf';
+import Function_bindRecursive from '/utils/Function/bindRecursive';
 
 _.mixin({
 	product(...collections) {
-		let returns = [];
-		Function_withSelf((callSelf, tuple) => {
-			if (tuple.length < collections.length) {
-				_.forEach(collections[tuple.length], value => {
-					callSelf(_.concat(tuple, [value]));
+		let product = [];
+		Function_bindRecursive((recur, collection) => {
+			if (collection.length < collections.length) {
+				_.forEach(collections[collection.length], value => {
+					recur(_.concat(collection, [value]));
 				});
 			} else {
-				returns.push(tuple);
+				product.push(collection);
 			}
 		})([]);
-		return returns;
+		return product;
 	},
 });

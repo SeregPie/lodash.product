@@ -25,15 +25,15 @@ npm install lodash.product
 ### ES module
 
 ```javascript
-import _ from 'lodash';
 import 'lodash.product';
+import _ from 'lodash';
 ```
 
 ### Node
 
 ```javascript
-const _ = require('lodash');
 require('lodash.product');
+let _ = require('lodash');
 ```
 
 ### browser
@@ -49,6 +49,8 @@ require('lodash.product');
 let product = _.product([false, true], ['a', 'b', 'c'], [{}]);
 // => [[false, 'a', {}], [false, 'b', {}], [false, 'c', {}], [true, 'a', {}], [true, 'b', {}], [true, 'c', {}]]
 ```
+
+---
 
 ```javascript
 let array = [1, 2, 3];

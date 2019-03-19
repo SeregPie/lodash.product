@@ -1,6 +1,6 @@
 /*eslint no-console: 0*/
 
-require('./lodash.product');
+require('./index');
 let _ = require('lodash');
 
 {

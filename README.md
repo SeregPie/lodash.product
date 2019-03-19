@@ -10,16 +10,12 @@ Calculates the Cartesian product between multiple collections.
 
 Returns a new array.
 
-## dependencies
-
-- [lodash](https://github.com/lodash/lodash)
-
 ## setup
 
 ### npm
 
 ```shell
-npm install lodash.product
+npm i lodash.product
 ```
 
 ### ES module

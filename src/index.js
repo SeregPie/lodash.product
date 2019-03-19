@@ -1,6 +1,6 @@
 import _ from 'lodash';
 
-import Function_bindRecursive from '/utils/Function/bindRecursive';
+import Function_bindRecursive from './utils/Function/bindRecursive';
 
 _.mixin({
 	product(...collections) {

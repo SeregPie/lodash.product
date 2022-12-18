@@ -15,6 +15,10 @@
 	"license": "MIT",
 	"author": "Sergej Sintschilin <seregpie@gmail.com>",
 	"main": "index.js",
+	"types": "index.d.ts",
+	"files": [
+		"index.d.ts"
+	],
 	"scripts": {
 		"build": "rollup -c",
 		"prepublishOnly": "npm run build",
@@ -25,10 +29,17 @@
 		"@babel/preset-env": "^7.20.2",
 		"@rollup/plugin-babel": "^6.0.3",
 		"@rollup/plugin-terser": "^0.2.0",
+		"@types/lodash": "^4.14.191",
 		"lodash": "^4.17.21",
 		"rollup": "^3.7.5"
 	},
 	"peerDependencies": {
+		"@types/lodash": "^4",
 		"lodash": "^4"
+	},
+	"peerDependenciesMeta": {
+		"@types/lodash": {
+			"optional": true
+		}
 	}
 }

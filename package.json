@@ -21,7 +21,7 @@
 		"test": "node test"
 	},
 	"devDependencies": {
-		"rollup": "^1.6.0",
+		"rollup": "^3.7.5",
 		"rollup-plugin-buble": "^0.19.6",
 		"rollup-plugin-terser": "^4.0.4"
 	},

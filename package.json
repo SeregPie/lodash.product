@@ -11,10 +11,10 @@
 		"mixin",
 		"product"
 	],
+	"repository": "github:SeregPie/lodash.product",
 	"license": "MIT",
 	"author": "Sergej Sintschilin <seregpie@gmail.com>",
 	"main": "index.js",
-	"repository": "https://github.com/SeregPie/lodash.product.git",
 	"scripts": {
 		"build": "rollup -c",
 		"prepublishOnly": "npm run build",
@@ -26,6 +26,6 @@
 		"rollup-plugin-terser": "^4.0.4"
 	},
 	"peerDependencies": {
-		"lodash": "^4.17.11"
+		"lodash": "^4"
 	}
 }
